@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Example Page</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+    }
+    .container {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      flex-wrap: wrap;
+    }
+    .box {
+      background-color: #f1f1f1;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+      margin: 20px;
+      padding: 20px;
+      width: calc(50% - 40px);
+    }
+    .image {
+      display: block;
+      margin: 0 auto;
+      max-width: 100%;
+      height: auto;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="box">
+      <img src="https://www.example.com/image.jpg" alt="Example Image" class="image">
+    </div>
+    <div class="box">
+      <h2>About Us</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam vehicula magna sit amet tellus accumsan, eu tincidunt libero bibendum. Integer et diam sed velit pulvinar tristique nec nec sapien.</p>
+      <p>Aliquam luctus sapien vel eros consectetur volutpat. Duis eu mauris ultrices, vestibulum ex nec, ultrices magna. Curabitur commodo suscipit mi, ut gravida nibh eleifend nec.</p>
+    </div>
+    <div class="box">
+      <h2>Categories</h2>
+      <ul>
+        <li>Category 1</li>
+        <li>Category 2</li>
+      </ul>
+    </div>
+  </div>
+</body>
+</html>
