@@ -1,0 +1,252 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f9fc;
+  }
+  
+  header {
+    background-color:  #1976d2;
+    color: #ffffff;
+    padding: 20px;
+  }
+  
+  h1 {
+    margin: 0;
+    font-size: 32px;
+    font-weight: 600;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  nav li {
+    margin: 0 20px;
+  }
+  
+  nav a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+  }
+  
+  nav a:hover {
+    text-decoration: underline;
+  }
+  
+  main {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .product-info {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+  }
+  
+  .product-images img {
+    max-width: 500px;
+    margin-right: 40px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .product-details {
+    flex: 1;
+  }
+  
+  .price {
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    color: #1976d2;
+  }
+  
+  .product-details h3 {
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    color: #424242;
+  }
+  
+  .product-details ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  
+  .product-details li {
+    margin-bottom: 5px;
+  }
+  
+  .cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #1976d2;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 500;
+    border: none;
+    border-radius: 4px;
+    text-decoration: none;
+    transition: background-color 0.2s ease;
+    margin-top: 20px;
+  }
+  
+  .cta-button:hover {
+    background-color: #1565c0;
+  }
+  
+  .product-reviews {
+    width: 100%;
+    margin-bottom: 40px;
+  }
+  
+  .product-reviews h2 {
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    color: #424242;
+  }
+  
+  .product-reviews ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  
+  .product-reviews li {
+    margin-bottom: 30px;
+  }
+  
+  .product-reviews h3 {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    color: #424242;
+  }
+  
+  .product-reviews p {
+    margin: 0;
+  }
+  
+  .review-author {
+    display: block;
+    margin-top: 10px;
+    font-weight: 500;
+    color: #757575;
+  }
+  
+  .related-products {
+    width: 100%;
+  }
+  
+  .related-products h2 {
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    color: #424242;
+    }
+    
+    .related-products ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    }
+    
+    .related-products li {
+    width: calc(33.33% - 20px);
+    margin-right: 20px;
+    margin-bottom: 40px;
+    }
+    
+    .related-products li:last-child {
+    margin-right: 0;
+    }
+    
+    .related-product-image {
+    overflow: hidden;
+    margin-bottom: 10px;
+    }
+    
+    .related-product-image img {
+    transition: transform 0.2s ease;
+    }
+    
+    .related-product-image:hover img {
+    transform: scale(1.1);
+    }
+    
+    .related-product-title {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    }
+    
+    .related-product-price {
+    font-size: 16px;
+    font-weight: 500;
+    color: #1976d2;
+    }
+    
+    /* Light Blue Theme */
+    .light-blue {
+    --primary-color: #1976d2;
+    --secondary-color: #e3f2fd;
+    --text-color: #424242;
+    --background-color: #f7f9fc;
+    }
+    
+    .light-blue header {
+    background-color: var(--primary-color);
+    }
+    
+    .light-blue h1,
+    .light-blue h2,
+    .light-blue h3,
+    .light-blue h4,
+    .light-blue h5,
+    .light-blue h6 {
+    color: var(--text-color);
+    }
+    
+    .light-blue .price {
+    color: var(--primary-color);
+    }
+    
+    .light-blue .cta-button {
+    background-color: var(--primary-color);
+    }
+    
+    .light-blue .cta-button:hover {
+    background-color: #1565c0;
+    }
+    
+    .light-blue .product-details h3 {
+    color: var(--text-color);
+    }
+    
+    .light-blue .product-reviews h2,
+    .light-blue .related-products h2 {
+    color: var(--text-color);
+    }
+    
+    .light-blue .related-product-price {
+    color: var(--primary-color);
+    }
+    
+    .light-blue body {
+    background-color: var(--background-color);
+    } 
+  

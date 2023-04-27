@@ -1,4 +1,4 @@
- * {
+*{
     box-sizing: border-box;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   }
@@ -7,6 +7,11 @@
     margin: 0;
     padding: 0;
     background-color: #f1f1f1;
+    background-image: url("images/112.jpg");
+      background-size: contain;
+      background-repeat: no-repeat;
+    
+    
   }
 
   header {
@@ -46,14 +51,10 @@
     margin: 1rem;
   }
 
-  .sidebar {
-    background-color: white;
-    border: 1px solid #ddd;
-    padding: 1rem;
-    width: 25%;
-  }
-
-  .main {
+  
+  
+  
+.main {
     background-color: white;
     border: 1px solid #ddd;
     padding: 1rem;
@@ -81,4 +82,17 @@
     margin: 0;
     padding-left: 2rem;
   }
-  
+      /* Style for the links in the navigation menu */
+      .menu a {
+        display: inline-block;
+        padding: 10px;
+        text-decoration: none;
+        color: #333;
+        transition: background-color 0.3s ease;
+      }
+      
+      /* Hover effect */
+      .menu a:hover {
+        background-color: #333;
+        color: #fff;
+      }

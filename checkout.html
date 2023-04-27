@@ -1,0 +1,208 @@
+<head>
+	<title>Checkout - ASUS 4070
+    
+    </title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<style>
+    .light-blue {
+    --primary-color: #1976d2;
+    --secondary-color: #b2ccd8;
+    --text-color: #211b70;
+    --background-color: #f7f9fc;
+  }
+  
+  .light-blue body {
+    background-color: var(--background-color);
+    color: var(--text-color);
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+  }
+  
+  .light-blue h1,
+  .light-blue h2,
+  .light-blue h3,
+  .light-blue h4,
+  .light-blue h5,
+  .light-blue h6 {
+    color: var(--text-color);
+  }
+  
+  .light-blue a {
+    color: var(--primary-color);
+    text-decoration: rgb(39, 28, 136);
+  }
+  
+  .light-blue a:hover {
+    text-decoration: underline;
+  }
+  
+  .light-blue .container {
+    max-width:100 px;
+    margin: 50;
+    padding: 20px;
+  }
+  
+  .light-blue .section {
+    margin-bottom: 40px;
+  }
+  
+  .light-blue .section h2 {
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    color: var(--text-color);
+  }
+  
+  .light-blue .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .light-blue label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .light-blue input[type="text"],
+  .light-blue input[type="email"],
+  .light-blue input[type="tel"],
+  .light-blue input[type="number"],
+  .light-blue select,
+  .light-blue textarea {
+    width: 50%;
+    padding: 10px;
+    font-size: 16px;
+    border: 23;
+    border-radius: 4px;
+    background-color: var(--secondary-color);
+  }
+  
+  .light-blue input[type="text"]:focus,
+  .light-blue input[type="email"]:focus,
+  .light-blue input[type="tel"]:focus,
+  .light-blue input[type="number"]:focus,
+  .light-blue select:focus,
+  .light-blue textarea:focus {
+    outline: none;
+    box-shadow: 0 0 3px 1px var(--primary-color);
+  }
+  
+  .light-blue select {
+    appearance: var;
+    background: var(--primary-color)
+  }
+  
+  .light-blue textarea {
+    resize: vertical;
+  }
+  
+  .light-blue .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: 600;
+    text-align: center;
+    color: #fff;
+    background-color: var(--primary-color);
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+  }
+  
+  .light-blue .btn:hover {
+    background-color: #1565c0;
+  }
+  table{
+    background-color: white;
+  }
+  body{
+    background-image: none;
+  }
+</style>
+<body class="light-blue">
+	<h1><u>Checkout - ASUS 4070</u></h1>
+
+
+	<h2>Shopping Cart Summary:</h2>
+	<table>
+		<tr>
+			<th>Product Name</th>
+			<th>Price</th>
+			<th>Quantity</th>
+			<th>Total</th>
+		</tr>
+		<tr>
+			<td>ASUS 4070</td>
+			<td>$569.99</td>
+			<td>1</td>
+			<td>$569.99</td>
+		</tr>
+	</table>
+
+	<h2>Order Details:</h2>
+	<table>
+		<tr>
+			<td>Subtotal:</td>
+			<td>$569.99</td>
+		</tr>
+		<tr>
+			<td>Shipping:</td>
+			<td>Free</td>
+		</tr>
+		<tr>
+			<td>Tax:</td>
+			<td>$19.99</td>
+		</tr>
+		<tr>
+			<th>Total:</th>
+			<th>$589.98</th>
+		</tr>
+	</table>
+  <div>
+
+	<h2>Billing and Shipping Information:</h2>
+	<form>
+		<label for="name">Name:</label>
+		<input type="text" id="name" name="name"><br>
+
+		<label for="email">Email:</label>
+		<input type="email" id="email" name="email"><br>
+
+		<label for="address">Address:</label>
+		<input type="text" id="address" name="address"><br>
+
+		<label for="city">City:</label>
+		<input type="text" id="city" name="city"><br>
+
+		<label for="state">State:</label>
+		<input type="text" id="state" name="state"><br>
+
+		<label for="zip">Zip Code:</label>
+		<input type="text" id="zip" name="zip"><br>
+	</form>
+
+</div>
+
+	<h2>Payment Method Options:</h2>
+	<ul>
+		<li>
+			<label>
+				<input type="radio" name="payment" value="credit-card">
+				Credit Card
+			</label>
+		</li>
+		<li>
+			<label>
+				<input type="radio" name="payment" value="paypal">
+				PayPal
+			</label>
+		</li>
+	</ul>
+
+	<a href="confirmation.html"><button>Place Order</button></a>
+
+	<p>Need help or have a question? Contact us at support@GamersUnite.com.</p>
+
+</body>
+
